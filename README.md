@@ -133,18 +133,7 @@ llmguard-eval/
 - CUDA 11.8+ (optional)
 - 8GB+ RAM recommended
 
-### Setup
 
-```bash
-git clone https://github.com/yourusername/llmguard-eval.git
-cd llmguard-eval
-python -m venv venv
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
-pip install -r requirements.txt
-```
 
 ### Optional
 For optional local GPT4All experiments in `llmguard_distilgpt2_evaluation.py`:
